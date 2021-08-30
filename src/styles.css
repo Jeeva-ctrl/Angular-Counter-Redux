@@ -1,0 +1,11 @@
+p {
+  font-family: Lato;
+}
+
+button {
+  border: 2px solid red;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: green;
+  cursor: pointer;
+}
