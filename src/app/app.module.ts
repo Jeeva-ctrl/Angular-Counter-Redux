@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { MyCounterComponent } from './my-counter.component';
 
+//The StoreModule.forRoot() method registers the global providers needed to access the Store throughout your application.
+
 @NgModule({
   imports: [
     BrowserModule,
