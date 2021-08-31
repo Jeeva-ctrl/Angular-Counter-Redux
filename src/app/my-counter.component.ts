@@ -11,6 +11,8 @@ export class MyCounterComponent {
   count$: Observable<number>;
 
   constructor(private store: Store<{ count: number }>) {
+    // store.select('count') return Observable - Ask template to use async pipe -  select<a extends keyof T>(key: a): Observable<T[a]>;
+
     this.count$ = store.select('count');
   }
   increment() {
